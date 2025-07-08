@@ -1,0 +1,50 @@
+.table-view{
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.task-table th,
+.task-table td {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.task-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #111827;
+  text-align: center;
+}
+
+.task-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.task-table td button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.task-table td button:hover {
+  background-color: #dc2626;
+}
