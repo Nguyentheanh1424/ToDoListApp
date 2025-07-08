@@ -21,6 +21,9 @@
   border: 1px solid #e5e7eb;
   text-align: left;
   word-wrap: break-word;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .task-table th {
